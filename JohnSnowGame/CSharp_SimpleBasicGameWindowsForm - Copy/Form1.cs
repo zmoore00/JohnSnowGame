@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 //Zackary Moore
-//
+//Avery Haynes
 namespace CSharp_SimpleBasicGameWindowsForm
 {
     public partial class Form1 : Form
