@@ -57,3 +57,6 @@ E:\CSharp_SimpleBasicGameWindowsForm - Copy\obj\Debug\CSharp_SimpleBasicGameWind
 E:\CSharp_SimpleBasicGameWindowsForm - Copy\obj\Debug\CSharp_SimpleBasicGameWindowsForm.csproj.CoreCompileInputs.cache
 E:\CSharp_SimpleBasicGameWindowsForm - Copy\obj\Debug\CSharp_SimpleBasicGameWindowsForm.exe
 E:\CSharp_SimpleBasicGameWindowsForm - Copy\obj\Debug\CSharp_SimpleBasicGameWindowsForm.pdb
+C:\Users\zmoore\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\bin\Debug\CSharp_SimpleBasicGameWindowsForm.exe.config
+C:\Users\zmoore\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\obj\Debug\CSharp_SimpleBasicGameWindowsForm.exe
+C:\Users\zmoore\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\obj\Debug\CSharp_SimpleBasicGameWindowsForm.pdb
