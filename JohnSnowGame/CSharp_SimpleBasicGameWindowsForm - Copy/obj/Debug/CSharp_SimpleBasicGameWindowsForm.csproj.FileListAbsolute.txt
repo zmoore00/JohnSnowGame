@@ -63,3 +63,9 @@ C:\Users\zmoore\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsF
 C:\Users\ahaynes34724\Documents\GitHub\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\bin\Debug\CSharp_SimpleBasicGameWindowsForm.exe.config
 C:\Users\ahaynes34724\Documents\GitHub\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\obj\Debug\CSharp_SimpleBasicGameWindowsForm.exe
 C:\Users\ahaynes34724\Documents\GitHub\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\obj\Debug\CSharp_SimpleBasicGameWindowsForm.pdb
+C:\Users\zmoore\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\bin\Debug\CSharp_SimpleBasicGameWindowsForm.exe
+C:\Users\zmoore\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\bin\Debug\CSharp_SimpleBasicGameWindowsForm.pdb
+C:\Users\zmoore\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\obj\Debug\CSharp_SimpleBasicGameWindowsForm.csprojResolveAssemblyReference.cache
+C:\Users\zmoore\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\obj\Debug\CSharp_SimpleBasicGameWindowsForm.Form1.resources
+C:\Users\zmoore\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\obj\Debug\CSharp_SimpleBasicGameWindowsForm.Properties.Resources.resources
+C:\Users\zmoore\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\obj\Debug\CSharp_SimpleBasicGameWindowsForm.csproj.GenerateResource.Cache

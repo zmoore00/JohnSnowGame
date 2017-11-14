@@ -599,5 +599,16 @@ namespace CSharp_SimpleBasicGameWindowsForm
             }
             
         }
+
+        //This will handle a mouse click
+        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        {
+            //Testing just moving John Snow to where I click the mouse
+            this.JohnSnow.Location = new Point(e.X, e.Y);
+            if(JohnSnow.Left == e.X)
+            {
+                Console.WriteLine("HERE");
+            }
+        }
     }
 }

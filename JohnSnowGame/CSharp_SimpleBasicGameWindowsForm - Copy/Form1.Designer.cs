@@ -33,13 +33,15 @@
             this.healthBar = new System.Windows.Forms.ProgressBar();
             this.pausedTimer = new System.Windows.Forms.Timer(this.components);
             this.timerDisp = new System.Windows.Forms.Label();
+            this.coinTimer = new System.Windows.Forms.Timer(this.components);
+            this.snowBall = new System.Windows.Forms.PictureBox();
             this.coin02 = new System.Windows.Forms.PictureBox();
             this.fire3 = new System.Windows.Forms.PictureBox();
             this.fire2 = new System.Windows.Forms.PictureBox();
             this.fire1 = new System.Windows.Forms.PictureBox();
             this.fire = new System.Windows.Forms.PictureBox();
             this.JohnSnow = new System.Windows.Forms.PictureBox();
-            this.coinTimer = new System.Windows.Forms.Timer(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.snowBall)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.coin02)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fire3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fire2)).BeginInit();
@@ -74,6 +76,21 @@
             this.timerDisp.Size = new System.Drawing.Size(13, 13);
             this.timerDisp.TabIndex = 6;
             this.timerDisp.Text = "5";
+            // 
+            // coinTimer
+            // 
+            this.coinTimer.Enabled = true;
+            this.coinTimer.Tick += new System.EventHandler(this.coinTimer_Tick);
+            // 
+            // snowBall
+            // 
+            this.snowBall.Image = global::CSharp_SimpleBasicGameWindowsForm.Properties.Resources.snowballTest;
+            this.snowBall.Location = new System.Drawing.Point(305, 284);
+            this.snowBall.Name = "snowBall";
+            this.snowBall.Size = new System.Drawing.Size(20, 23);
+            this.snowBall.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.snowBall.TabIndex = 10;
+            this.snowBall.TabStop = false;
             // 
             // coin02
             // 
@@ -136,16 +153,12 @@
             this.JohnSnow.TabIndex = 0;
             this.JohnSnow.TabStop = false;
             // 
-            // coinTimer
-            // 
-            this.coinTimer.Enabled = true;
-            this.coinTimer.Tick += new System.EventHandler(this.coinTimer_Tick);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(765, 500);
+            this.Controls.Add(this.snowBall);
             this.Controls.Add(this.coin02);
             this.Controls.Add(this.timerDisp);
             this.Controls.Add(this.healthBar);
@@ -158,6 +171,8 @@
             this.Text = "Form1";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
+            ((System.ComponentModel.ISupportInitialize)(this.snowBall)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.coin02)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fire3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fire2)).EndInit();
@@ -182,6 +197,7 @@
         private System.Windows.Forms.Label timerDisp;
         private System.Windows.Forms.PictureBox coin02;
         private System.Windows.Forms.Timer coinTimer;
+        private System.Windows.Forms.PictureBox snowBall;
     }
 }
 

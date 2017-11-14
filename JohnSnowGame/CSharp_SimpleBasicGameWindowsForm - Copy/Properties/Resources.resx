@@ -118,32 +118,35 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CoinFront1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CoinFront1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="newJohnSnow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newJohnSnow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="newFire" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\newFire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="newFire1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\newFire1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="coinSide12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\coinSide12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="CoinFront" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CoinFront.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="newJohnSnow" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\newJohnSnow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fireCorrectSize" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fireCorrectSize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="coinSide12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coinSide12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newFire1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newFire1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CoinFront1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CoinFront1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coinSide1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coinSide1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coinSide3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coinSide3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="newJohnSnowFaceRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\newJohnSnowFaceRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="coinSide2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\coinSide2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fireCorrectSize1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fireCorrectSize1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,10 +154,10 @@
   <data name="Coin again" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Coin again.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="coinSide1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\coinSide1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="coinSide2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coinSide2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="coinSide3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\coinSide3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="snowballTest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snowballTest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

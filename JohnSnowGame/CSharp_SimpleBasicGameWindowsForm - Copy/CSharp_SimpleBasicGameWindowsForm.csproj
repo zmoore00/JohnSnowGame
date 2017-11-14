@@ -87,6 +87,8 @@
     <None Include="Resources\newFire1.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\SnowBall.png" />
+    <None Include="Resources\snowballTest.png" />
     <None Include="Resources\newJohnSnowFaceRight.png" />
     <None Include="Resources\fireCorrectSize1.png" />
     <None Include="Resources\fireCorrectSize.png" />
