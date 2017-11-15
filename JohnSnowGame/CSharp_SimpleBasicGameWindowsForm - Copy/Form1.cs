@@ -599,16 +599,63 @@ namespace CSharp_SimpleBasicGameWindowsForm
             }
             
         }
-
+        int mouseX;
+        int mouseY;
         //This will handle a mouse click
         private void Form1_MouseDown(object sender, MouseEventArgs e)
         {
-            //Testing just moving John Snow to where I click the mouse
-            this.JohnSnow.Location = new Point(e.X, e.Y);
-            if(JohnSnow.Left == e.X)
+            //store the click position x in a global variable called mouseX so i can access it in my snowballTimer_Tick method
+            mouseX = e.X;
+            //store the click position y in a global variable called mouseX so i can access it in my snowballTimer_Tick method
+            mouseY = e.Y;
+            //enable the timer so it starts running
+            snowballTimer.Enabled = true;
+        }
+
+        //Global timer so I can tell how many ticks have went by
+        int snowballTimeCounter = 0;
+        //Global picturebox so i can call it from my snowballTimer_Tick method
+        PictureBox snowball;
+        private void snowballTimer_Tick(object sender, EventArgs e)
+        {
+            //First time the timer has ticked
+            if (snowballTimeCounter == 0)
             {
-                Console.WriteLine("HERE");
+                //Create a new picture
+                snowball = new PictureBox();
+                //Tell the picturebox what image to use
+                snowball.Image = CSharp_SimpleBasicGameWindowsForm.Properties.Resources.snowballTest;
+                //Have it start on the x cooridate where John is so it appears that he is throwing it.
+                snowball.Left = JohnSnow.Left + 90;
+                //Have it start on the y cooridate where John is so it appears that he is throwing it.
+                snowball.Top = JohnSnow.Top + 30;
+                //Add the snowball to the form so we can see it
+                this.Controls.Add(snowball);
+                //increment counter
+                snowballTimeCounter++;
             }
+            //second time the timer has ticked
+            else if (snowballTimeCounter == 1)
+            {
+                //move the position of the snowball to where the user clicked
+                //The way that this is working is okay but I think it can get alot better.  I would like to see it move accross the screen more than what
+                //it does currently.  I will try to fix this in a later update
+                snowball.Location = new Point(mouseX, mouseY);
+                //increment counter
+                snowballTimeCounter++;
+
+            }
+            else
+            {
+                //remove the picturebox from the form
+                this.Controls.Remove(snowball);
+                //set counter back to 0 so I can do the above if else chain all over again
+                snowballTimeCounter = 0;
+                //set the timer to false so it does not continue to run this method
+                //I only want it to run when the user clicks on the screen
+                snowballTimer.Enabled = false;
+            }
+            
         }
     }
 }

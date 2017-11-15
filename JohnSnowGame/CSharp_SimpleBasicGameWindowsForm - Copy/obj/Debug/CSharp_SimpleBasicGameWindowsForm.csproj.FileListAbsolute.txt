@@ -69,3 +69,13 @@ C:\Users\zmoore\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsF
 C:\Users\zmoore\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\obj\Debug\CSharp_SimpleBasicGameWindowsForm.Form1.resources
 C:\Users\zmoore\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\obj\Debug\CSharp_SimpleBasicGameWindowsForm.Properties.Resources.resources
 C:\Users\zmoore\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\obj\Debug\CSharp_SimpleBasicGameWindowsForm.csproj.GenerateResource.Cache
+C:\Users\12zcm_000\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\bin\Debug\CSharp_SimpleBasicGameWindowsForm.exe.config
+C:\Users\12zcm_000\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\bin\Debug\CSharp_SimpleBasicGameWindowsForm.exe
+C:\Users\12zcm_000\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\bin\Debug\CSharp_SimpleBasicGameWindowsForm.pdb
+C:\Users\12zcm_000\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\obj\Debug\CSharp_SimpleBasicGameWindowsForm.csprojResolveAssemblyReference.cache
+C:\Users\12zcm_000\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\obj\Debug\CSharp_SimpleBasicGameWindowsForm.Form1.resources
+C:\Users\12zcm_000\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\obj\Debug\CSharp_SimpleBasicGameWindowsForm.Properties.Resources.resources
+C:\Users\12zcm_000\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\obj\Debug\CSharp_SimpleBasicGameWindowsForm.csproj.GenerateResource.Cache
+C:\Users\12zcm_000\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\obj\Debug\CSharp_SimpleBasicGameWindowsForm.csproj.CoreCompileInputs.cache
+C:\Users\12zcm_000\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\obj\Debug\CSharp_SimpleBasicGameWindowsForm.exe
+C:\Users\12zcm_000\Desktop\JohnSnowGame\JohnSnowGame\CSharp_SimpleBasicGameWindowsForm - Copy\obj\Debug\CSharp_SimpleBasicGameWindowsForm.pdb
