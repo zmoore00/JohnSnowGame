@@ -41,6 +41,7 @@
             this.fire = new System.Windows.Forms.PictureBox();
             this.JohnSnow = new System.Windows.Forms.PictureBox();
             this.snowballTimer = new System.Windows.Forms.Timer(this.components);
+            this.lblCoins = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.coin02)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fire3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fire2)).BeginInit();
@@ -146,11 +147,21 @@
             // 
             this.snowballTimer.Tick += new System.EventHandler(this.snowballTimer_Tick);
             // 
+            // lblCoins
+            // 
+            this.lblCoins.AutoSize = true;
+            this.lblCoins.Location = new System.Drawing.Point(13, 446);
+            this.lblCoins.Name = "lblCoins";
+            this.lblCoins.Size = new System.Drawing.Size(24, 13);
+            this.lblCoins.TabIndex = 10;
+            this.lblCoins.Text = "0/5";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(765, 500);
+            this.Controls.Add(this.lblCoins);
             this.Controls.Add(this.coin02);
             this.Controls.Add(this.timerDisp);
             this.Controls.Add(this.healthBar);
@@ -189,6 +200,7 @@
         private System.Windows.Forms.PictureBox coin02;
         private System.Windows.Forms.Timer coinTimer;
         private System.Windows.Forms.Timer snowballTimer;
+        private System.Windows.Forms.Label lblCoins;
     }
 }
 

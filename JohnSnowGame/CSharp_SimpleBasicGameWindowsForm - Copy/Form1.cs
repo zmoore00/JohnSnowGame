@@ -51,6 +51,9 @@ namespace CSharp_SimpleBasicGameWindowsForm
 
         int coinSide = 0;
 
+        //used to have John Snow collect coins
+        int totalCoins = 0;
+
         public Form1()
         {
             InitializeComponent();
@@ -364,7 +367,7 @@ namespace CSharp_SimpleBasicGameWindowsForm
                 johnPosY = JohnSnow.Top;
             }
         }
-                    private void moveMainCharacter2()
+        private void moveMainCharacter2()
         {
             if (up2 && right2)
             {
@@ -521,7 +524,47 @@ namespace CSharp_SimpleBasicGameWindowsForm
                 fireTimer.Enabled = false;
             }
 
-
+            // Collecting Coins
+            if (coin02.Bounds.IntersectsWith(JohnSnow.Bounds))
+            {
+                int[] coinXLocations = {30, 50, 90, 100, 12 };
+                int[] coinYLocations = {100, 90, 45, 13, 22 };
+                
+                if (totalCoins == 0)
+                {
+                    lblCoins.Text = "1/5";
+                    totalCoins++;
+                    coin02.Left = coinXLocations[0];
+                    coin02.Top = coinYLocations[0];
+                }
+                else if (totalCoins == 1)
+                {
+                    lblCoins.Text = "2/5";
+                    totalCoins++;
+                    coin02.Left = coinXLocations[1];
+                    coin02.Top = coinYLocations[1];
+                }
+                else if (totalCoins == 2)
+                {
+                    lblCoins.Text = "3/5";
+                    totalCoins++;
+                    coin02.Left = coinXLocations[2];
+                    coin02.Top = coinYLocations[2];
+                }
+                else if (totalCoins == 3)
+                {
+                    lblCoins.Text = "4/5";
+                    totalCoins++;
+                    coin02.Left = coinXLocations[3];
+                    coin02.Top = coinYLocations[3];
+                }
+                else if (totalCoins == 4)
+                {
+                    lblCoins.Text = "5/5";
+                    totalCoins++;
+                    coin02.Visible = false;
+                }
+            }
 
             // Power
             if(johnPosX <= -91 && paused)
