@@ -414,11 +414,11 @@ namespace CSharp_SimpleBasicGameWindowsForm
         private void timer1_Tick(object sender, EventArgs e)
         {
             const int fireSpeed = 10;
-            if(fire.Left < 0)
+            if(fire.Bounds.IntersectsWith(leftWall.Bounds))
             {
                 fireLeft = true;
             }
-            else if(fire.Left > this.Width)
+            else if(fire.Bounds.IntersectsWith(rightWall.Bounds))
             {
                 fireLeft = false;
             }
@@ -431,11 +431,11 @@ namespace CSharp_SimpleBasicGameWindowsForm
                 fire.Left += fireSpeed;
             }
             //============
-            if (fire1.Left < 0)
+            if (fire1.Bounds.IntersectsWith(leftWall.Bounds))
             {
                 fire1Left = true;
             }
-            else if (fire1.Left > this.Width)
+            else if (fire1.Bounds.IntersectsWith(rightWall.Bounds))
             {
                 fire1Left = false;
             }
@@ -448,11 +448,11 @@ namespace CSharp_SimpleBasicGameWindowsForm
                 fire1.Left += fireSpeed;
             }
             //============
-            if (fire2.Left < 0)
+            if (fire2.Bounds.IntersectsWith(leftWall.Bounds))
             {
                 fire2Left = true;
             }
-            else if (fire2.Left > this.Width)
+            else if (fire2.Bounds.IntersectsWith(rightWall.Bounds))
             {
                 fire2Left = false;
             }
@@ -466,11 +466,11 @@ namespace CSharp_SimpleBasicGameWindowsForm
             }
 
             //Fire LIT
-            if (fire3.Left < 0)
+            if (fire3.Bounds.IntersectsWith(leftWall.Bounds))
             {
                 fire3Left = true;
             }
-            else if (fire3.Left > this.Width)
+            else if (fire3.Bounds.IntersectsWith(rightWall.Bounds))
             {
                 fire3Left = false;
             }

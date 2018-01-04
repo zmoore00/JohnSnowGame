@@ -42,12 +42,16 @@
             this.JohnSnow = new System.Windows.Forms.PictureBox();
             this.snowballTimer = new System.Windows.Forms.Timer(this.components);
             this.lblCoins = new System.Windows.Forms.Label();
+            this.leftWall = new System.Windows.Forms.PictureBox();
+            this.rightWall = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.coin02)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fire3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fire2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fire1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fire)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.JohnSnow)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.leftWall)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rightWall)).BeginInit();
             this.SuspendLayout();
             // 
             // fireTimer
@@ -156,11 +160,31 @@
             this.lblCoins.TabIndex = 10;
             this.lblCoins.Text = "0/5";
             // 
+            // leftWall
+            // 
+            this.leftWall.Location = new System.Drawing.Point(-3, 0);
+            this.leftWall.Name = "leftWall";
+            this.leftWall.Size = new System.Drawing.Size(10, 497);
+            this.leftWall.TabIndex = 11;
+            this.leftWall.TabStop = false;
+            this.leftWall.Visible = false;
+            // 
+            // rightWall
+            // 
+            this.rightWall.Location = new System.Drawing.Point(755, 0);
+            this.rightWall.Name = "rightWall";
+            this.rightWall.Size = new System.Drawing.Size(10, 497);
+            this.rightWall.TabIndex = 12;
+            this.rightWall.TabStop = false;
+            this.rightWall.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(765, 500);
+            this.Controls.Add(this.rightWall);
+            this.Controls.Add(this.leftWall);
             this.Controls.Add(this.lblCoins);
             this.Controls.Add(this.coin02);
             this.Controls.Add(this.timerDisp);
@@ -181,6 +205,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.fire1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fire)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.JohnSnow)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.leftWall)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rightWall)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -201,6 +227,8 @@
         private System.Windows.Forms.Timer coinTimer;
         private System.Windows.Forms.Timer snowballTimer;
         private System.Windows.Forms.Label lblCoins;
+        private System.Windows.Forms.PictureBox leftWall;
+        private System.Windows.Forms.PictureBox rightWall;
     }
 }
 
